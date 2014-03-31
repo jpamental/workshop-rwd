@@ -8,4 +8,22 @@ I'm not using any CSS pre-processing (which would certainly make it easier) so y
 
 ### Browser Compatibility
 
-With some final tweaking needed, the code is resonsive in IE6+ (yes, really), FF 3.6+ and all major current browsers.
+I firmly believe that the point of RWD is to be inclusive, so these files are meant to work on just about anything - even IE6. Yes, I said it. Really.
+
+###Currently tested:
+
+####Mac OS
+> Safari
+> Chrome
+> Firefox
+
+####Windows
+> Win7 / IE9
+> Win7 / IE10
+> XP / IE 6-8 (works but needs some love)
+
+####Mobile
+> iOS
+> Android
+
+
