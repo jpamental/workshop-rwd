@@ -170,7 +170,6 @@ h3 {
 }
 
 a { 
-	display: block;
 	-webkit-transition: background 0.3s ease-in-out; 
 	-moz-transition: background 0.3s ease-in-out; 
 	-o-transition: background 0.3s ease-in-out; 

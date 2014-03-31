@@ -160,7 +160,6 @@ h4 {
 }
 
 a { 
-	display: inline-block;
 	-webkit-transition: background 0.3s ease-in-out; 
 	-moz-transition: background 0.3s ease-in-out; 
 	-o-transition: background 0.3s ease-in-out; 
@@ -342,6 +341,10 @@ body.nav-open {
 
 #nav > .menu li {
 	position: relative;
+}
+
+nav .menu a {
+	display: block;
 }
 
 #nav > .menu .nav-dropdown-expanded ul {
