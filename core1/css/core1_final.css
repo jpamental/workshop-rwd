@@ -75,7 +75,7 @@ body {
 }
 
 header {
-	background-color: #bdad9c; 
+	background: #bdad9c url(../../assets/images/header_background_960.png) no-repeat; 
 	margin: 0;
 	padding: 1em 4.1666667% 0 4.1666667%; /* 40px / 960px = 4.1666667% */
 	position: relative;
