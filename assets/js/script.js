@@ -11,6 +11,36 @@ $(document).ready(function(e) {
 		$("html").toggleClass("font-scale-active font-scale-inactive");
 		$(this).toggleClass("on off");
 	});
+	// Type fonts toggle button
+	$(".toggle-fonts").click(function(){
+		if($("html").hasClass("wf-active")) {
+			$("html").removeClass("wf-active");
+			$("html").addClass("wf-inactive");
+			$(this).removeClass("on");
+			$(this).addClass("off");
+		} else {
+			$("html").removeClass("wf-inactive");
+			$("html").addClass("wf-active");
+			$(this).removeClass("off");
+			$(this).addClass("on");
+			// reset correction
+			$("html").addClass("corrected");
+			$(".toggle-font-correction").removeClass("off");
+			$(".toggle-font-correction").addClass("on");
+		}
+	});
+	// Type font correction toggle button
+	$(".toggle-font-correction").click(function(){
+		if($("html").hasClass("corrected")) {
+			$("html").removeClass("corrected");
+			$(this).removeClass("on");
+			$(this).addClass("off");
+		} else {
+			$("html").addClass("corrected");
+			$(this).removeClass("off");
+			$(this).addClass("on");
+		}
+	});
 });
 
 function checkMq() {

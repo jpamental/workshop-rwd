@@ -38,8 +38,6 @@ h1 {
     /* (22px / 45px) * 1.5 */
     margin-bottom: 0.24444445em;
     /* (22px / 45px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media (min-width: 58em) {
@@ -53,8 +51,6 @@ h1 {
     /* (22px / 48px) * 1.5 */
     margin-bottom: 0.22916667em;
     /* (22px / 48px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 #page > header h1 {
@@ -83,8 +79,6 @@ h2 {
     /* (22px / 32px) * 1.5 */
     margin-bottom: 0.34375em;
     /* (22px / 32px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media (min-width: 58em) {
@@ -96,8 +90,6 @@ h2 {
     /* (22px / 32px) * 1.5 */
     margin-bottom: 0.34375em;
     /* (22px / 32px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .font-scale-inactive h2 {
@@ -123,8 +115,6 @@ h3 {
     /* (22px / 24px) * 1.5 */
     margin-bottom: 0.45833334em;
     /* (22px / 24px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media (min-width: 58em) {
@@ -136,8 +126,6 @@ h3 {
     /* (22px / 24px) * 1.5 */
     margin-bottom: 0.45833334em;
     /* (22px / 24px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .font-scale-inactive h3 {
@@ -161,8 +149,6 @@ h4 {
     /* (22px / 18px) * 1.5 */
     margin-bottom: 0.61111111em;
     /* (22px / 18px) * .5 */
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media (min-width: 58em) {
