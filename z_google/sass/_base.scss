@@ -1,0 +1,56 @@
+/* Set theme variables here */
+
+//
+// "base" partial
+//
+// To make it easier to use all variables and mixins in any Sass file in this
+// theme, each .scss file has an import "base" declaration. And this _base.scss
+// file is in charge of importing all the other partials needed for the theme.
+//
+// This base partial is organized in this way:
+// - First we set any shared Sass variables.
+// - Next we import Compass plug-ins (Sass mixin libraries).
+// - Last we import a _custom.scss partial that includes our custom mixins.
+//
+
+
+//
+// Legacy IE support
+//
+// These variables are used by many mixins to add additional CSS to support
+// specific versions of IE or specific vendor prefixes.
+//
+// To turn on support for IE6 or IE7, set those variables to true.
+//
+// Zen does not require special handling for IE8 or later. But Compass uses that
+// variable for a couple edge cases. We include it for completeness sake. See
+// the documentation at http://compass-style.org/reference/compass/support/
+$legacy-support-for-ie6: true;
+$legacy-support-for-ie7: true;
+$legacy-support-for-ie8: true;
+$box-sizing-polyfill-path: "htc/boxsizing.htc";
+
+//
+// Font faces, stacks and sizes.
+//
+
+
+//
+// Media Query breakpoints
+//
+$mq-break-phone_wide-sm_tab: 25em; /* 400px */
+$mq-break-lg_tab: 43.75em; /* 700px */
+$mq-break-desk: 56.25em; /* 900px */
+$mq-break-lg_desk: 81.25em; /* 1300px */
+
+
+//
+// Partials to be shared with all .scss files.
+//
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/utilities";
+
+//@import "zen";              // Add the Zen Grids responsive layout mixins.
+
+@import "custom";           // Import our custom mixins last.

@@ -41,6 +41,11 @@ $(document).ready(function(e) {
 			$(this).addClass("on");
 		}
 	});
+	// OTF Features toggle button
+	$(".toggle-otf-features").click(function(){
+		$("html").toggleClass("otf-active otf-inactive");
+		$(this).toggleClass("on off");
+	});
 });
 
 function checkMq() {
