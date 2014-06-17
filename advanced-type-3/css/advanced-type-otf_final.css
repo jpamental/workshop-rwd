@@ -501,10 +501,6 @@ p:first-of-type:first-letter {
 	
 }
 
-p#word:last-word {
-  color:red;
-}
-
 /* image styles */
 
 img {
