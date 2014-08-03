@@ -76,9 +76,10 @@
 
 
 .toggle-fonts {
-  position: absolute; 
+  position: fixed; 
   top: 0.5em; 
-  right: 8em;
+  right: 8em; 
+  z-index: 999;
 }
 @media (min-width: 30em) {
 	.toggle-fonts {
@@ -86,9 +87,10 @@
 	}
 }
 .toggle-font-correction {
-  position: absolute; 
+  position: fixed; 
   top: 0.5em; 
-  right: 0.5em;
+  right: 0.5em; 
+  z-index: 999;
 }
 @media (min-width: 30em) {
 	.toggle-font-correction {
@@ -353,23 +355,24 @@ i b {
 }
 
 .wf-inactive.corrected h3 {
-  font-size: 1.375em;
+  font-size: 1.2em;
   letter-spacing: normal;
   line-height: 1.13636364;
 }
 @media (min-width: 44em) {
   .wf-inactive.corrected h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     letter-spacing: normal;
     line-height: 1.25;
   }
 }
 @media (min-width: 58em) {
   .wf-inactive.corrected h3 {
-    font-size: 1.75em;
+    font-size: 1.2em;
     letter-spacing: normal;
     line-height: 1.25;
-	margin-bottom: 0.35em;
+    margin-top: 1.2em;
+	margin-bottom: 0;
   }
 }
 
@@ -539,7 +542,7 @@ footer ul.menu li a:hover {
 
 .wf-inactive.corrected #comments h2 {
 	font-size: 1.8em;
-	margin-top: 0.95em;
+	margin-top: 0.7em;
 }
 
 #comments p {

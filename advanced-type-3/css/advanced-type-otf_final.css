@@ -501,6 +501,21 @@ p:first-of-type:first-letter {
 	
 }
 
+.lt-ie9 #main-content h1 + p:first-letter {
+    font-size: 3em; 
+    font-family: "Playfair Display", Georgia, "Times New Roman";
+	line-height: 0.9em; 
+	float: left; 
+	padding-right: 0.15em; 	
+}
+
+/*
+.lt-ie9 h1 {
+	filter: glow(color=white,strength=1), alpha(opacity=50);
+	zoom: 1;
+}
+*/
+
 /* image styles */
 
 img {
