@@ -12,7 +12,8 @@ $(document).ready(function(e) {
 		$(this).toggleClass("on off");
 	});
 	// Type fonts toggle button
-	$(".toggle-fonts").click(function(){
+	$(".toggle-fonts").click(function(e){
+		e.preventDefault();
 		if($("html").hasClass("wf-active")) {
 			$("html").removeClass("wf-active");
 			$("html").addClass("wf-inactive");
@@ -30,7 +31,8 @@ $(document).ready(function(e) {
 		}
 	});
 	// Type font correction toggle button
-	$(".toggle-font-correction").click(function(){
+	$(".toggle-font-correction").click(function(e){
+		e.preventDefault();
 		if($("html").hasClass("corrected")) {
 			$("html").removeClass("corrected");
 			$(this).removeClass("on");
