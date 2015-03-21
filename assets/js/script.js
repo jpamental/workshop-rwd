@@ -56,7 +56,7 @@ function checkMq() {
 	$('body').removeClass('mq-l-tab');
 	$('body').removeClass('mq-s-tab');
 	$('body').removeClass('mq-phone');
-	if(Modernizr.mq('only all and (min-width: 80.0625em)')) {
+	if(Modernizr.mq('only all and (min-width: 80.0625em)')) { 
 		$('body').addClass('mq-l-desk');
 		resetMenu();
 	} else if(Modernizr.mq('only all and (min-width: 58em)')) {
